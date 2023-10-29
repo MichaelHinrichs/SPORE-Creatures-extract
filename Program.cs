@@ -30,12 +30,12 @@ namespace SPORE__Creatures_extract
                 romFileNames.BaseStream.Position = file.subfile[i].nameOffset;
             }
 
-            for (int i = 0; i < 9151 - 1; i++)
+            for (int i = 0; i < 9150; i++)
                 file.subfile[i].size = file.subfile[i + 1].offset - file.subfile[i].offset;
 
             file.subfile[^1].size = (uint)(source.Length - file.subfile[^1].offset);
 
-            for (int i = 0; i < 9151 - 1; i++)
+            for (int i = 0; i < 9150; i++)
                 file.subfile[i].nameSize = file.subfile[i + 1].nameOffset - file.subfile[i].nameOffset;
 
             file.subfile[^1].nameSize = (uint)(source.Length - file.subfile[^1].nameOffset);
