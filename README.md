@@ -8,6 +8,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 ![GitHub org sponsors](https://img.shields.io/github/sponsors/MichaelHinrichs?style=flat&logo=github&logoColor=whitesmoke&label=Sponsors)
 ![GitHub repo watchers](https://img.shields.io/github/watchers/MichaelHinrichs/SPORE-Creatures-extract?style=flat&logo=github&logoColor=whitesmoke&label=Watchers)
 ![GitHub repo size](https://img.shields.io/github/repo-size/MichaelHinrichs/SPORE-Creatures-extract?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)
+![GitHub repo file count (file type)](https://img.shields.io/github/directory-file-count/MichaelHinrichs/SPORE-Creatures-extract)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MichaelHinrichs/SPORE-Creatures-extract)
 ![GitHub language count](https://img.shields.io/github/languages/count/MichaelHinrichs/SPORE-Creatures-extract)
 ![GitHub release](https://img.shields.io/github/v/release/MichaelHinrichs/SPORE-Creatures-extract)
