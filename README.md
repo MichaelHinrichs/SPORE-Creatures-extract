@@ -29,3 +29,4 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 ![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/SPORE-Creatures-extract/main)
 ![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/MichaelHinrichs/SPORE-Creatures-extract.svg)
 ![Percentage of issues still open](http://isitmaintained.com/badge/open/MichaelHinrichs/SPORE-Creatures-extract.svg)
+[![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
