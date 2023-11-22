@@ -1,3 +1,4 @@
-language: C#
-rvm:
- - net5.0
+language: csharp
+solution: SPORE™%20Creatures%20extract.sln
+mono: none
+dotnet: 2.1.502
