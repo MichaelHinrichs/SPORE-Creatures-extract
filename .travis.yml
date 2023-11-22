@@ -1,6 +1,6 @@
 language: csharp
-solution: "SPORE™ Creatures extract.sln"
+solution: SPORE™ Creatures extract.sln
 mono: none
 dotnet: net5.0
 script:
-  - msbuild /p:Configuration=Release "SPORE™ Creatures extract.sln"
+  - msbuild /p:Configuration=Release SPORE™ Creatures extract.sln
