@@ -17,27 +17,9 @@ namespace SPORE__Creatures_extract
             romFileNames = new BinaryReader(File.OpenRead(args[1]));
             romFileNames.BaseStream.Position = 0;
 
-            FILE file = new();
-            file.subfile = new SUBFILE[9151];
-            for (int i = 0; i < 9151; i++)
-            {
-                file.subfile[i].offset = rom.ReadUInt32();
-                file.subfile[i].nameOffset = romFileNames.ReadUInt32();
-            }
-            for (int i = 0; i < 9151; i++)
-            {
-                rom.BaseStream.Position = file.subfile[i].offset;
-                romFileNames.BaseStream.Position = file.subfile[i].nameOffset;
-            }
-
-            for (int i = 0; i < 9150; i++)
-                file.subfile[i].size = file.subfile[i + 1].offset - file.subfile[i].offset;
+            FILE file = GetFileData();
 
             file.subfile[^1].size = (uint)(source.Length - file.subfile[^1].offset);
-
-            for (int i = 0; i < 9150; i++)
-                file.subfile[i].nameSize = file.subfile[i + 1].nameOffset - file.subfile[i].nameOffset;
-
             file.subfile[^1].nameSize = (uint)(source.Length - file.subfile[^1].nameOffset);
 
             for (int i = 0; i < 9151; i++)
@@ -56,6 +38,30 @@ namespace SPORE__Creatures_extract
             //romFileNames.BaseStream.Position = file.subfile[i].offset;
             //file.subfile[i].name = Encoding.ASCII.GetString(rom.ReadBytes((int)file.subfile[i].size));
         }
+
+        public static FILE GetFileData()
+        {
+            FILE file = new();
+            file.subfile = new SUBFILE[9151];
+            for (int i = 0; i < 9151; i++)
+            {
+                file.subfile[i].offset = rom.ReadUInt32();
+                file.subfile[i].nameOffset = romFileNames.ReadUInt32();
+            }
+            for (int i = 0; i < 9151; i++)
+            {
+                rom.BaseStream.Position = file.subfile[i].offset;
+                romFileNames.BaseStream.Position = file.subfile[i].nameOffset;
+            }
+            for (int i = 0; i < 9150; i++)
+            {
+                file.subfile[i].size = file.subfile[i + 1].offset - file.subfile[i].offset;
+                file.subfile[i].nameSize = file.subfile[i + 1].nameOffset - file.subfile[i].nameOffset;
+            }
+
+            return file;
+        }
+
 
         public class FILE
         {
