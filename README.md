@@ -38,6 +38,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![AppVeyor tests](https://img.shields.io/appveyor/tests/MichaelHinrichs/SPORE-Creatures-extract?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/MichaelHinrichs/spore-creatures-extract/build/tests)
 [![AppVeyor Build](https://img.shields.io/appveyor/build/MichaelHinrichs/SPORE-Creatures-extract?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/MichaelHinrichs/spore-creatures-extract)
 [![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e/branch/a1c13151-953c-46ad-8692-51c7318382f9)](https://dashboard.infracost.io/org/mchinrichs/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e?tab=settings#config-file-editor)
+[![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-spore-creatures-extract-main)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+AWS+V1.2)
@@ -57,4 +58,3 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_eks_11)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+EKS+V1.1)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_gke_11)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+GKE+V1.1)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_kubernetes_16)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+KUBERNETES+V1.6)
-[![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-spore-creatures-extract-main)
