@@ -10,8 +10,10 @@ on:
     branches:
       - main
       - CodecovBranch
+
 jobs:
   coverage:
+    name: codecov
     runs-on: windows-latest
     steps:
       - name: Run Codecov
