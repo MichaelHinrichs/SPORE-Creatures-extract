@@ -1,4 +1,4 @@
-name: CodecovName
+name: Codecov
 on:
   push:
     branches:
@@ -12,11 +12,9 @@ on:
       - CodecovBranch
 
 jobs:
-  coverage:
+  codecov:
     name: codecov
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
+    runs-on: windows-latest
     
     steps:
       - name: Upload coverage reports to Codecov
