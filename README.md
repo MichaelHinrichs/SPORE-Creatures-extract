@@ -41,6 +41,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-spore-creatures-extract-main)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/MichaelHinrichs/SPORE-Creatures-extract)
+[![GuardRails badge](https://api.guardrails.io/v2/badges/213324?token=2adc71688ad21ca706cb9c5fc6486a1e873fa1a480b05468e9ead16c6ce7ff6a)](https://dashboard.guardrails.io/gh/MichaelHinrichs/repos/213324)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+AWS+V1.2)
