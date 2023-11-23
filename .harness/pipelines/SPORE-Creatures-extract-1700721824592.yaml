@@ -1,0 +1,33 @@
+pipeline:
+  identifier: Build_MichaelHinrichs_SPORE_Creatures_extract_1700721832778
+  name: Build SPORE-Creatures-extract
+  orgIdentifier: default
+  projectIdentifier: default_project
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.Github_OAuth_1700721772672
+        repoName: MichaelHinrichs/SPORE-Creatures-extract
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI
