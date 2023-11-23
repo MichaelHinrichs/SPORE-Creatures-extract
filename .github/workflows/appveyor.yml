@@ -8,4 +8,4 @@ jobs:
     name: Build and analyze
     runs-on: windows-latest
     env:
-      project: "SPORE™ Creatures extract.sln"
+      project: "SPORE™ Creatures extract.csproj"
