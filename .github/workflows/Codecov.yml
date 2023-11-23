@@ -5,7 +5,7 @@ on:
       - main
       - Codecov
 jobs:
-  build:
+  Codecov:
     runs-on: windows-latest
     steps:
       - name: Upload coverage reports to Codecov
