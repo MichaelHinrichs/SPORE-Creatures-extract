@@ -5,7 +5,7 @@ on:
       - appveyor
 jobs:
   build:
-    name: Build and analyze
+    name: ${{ matrix.toolchain }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
