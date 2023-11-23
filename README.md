@@ -40,6 +40,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e/branch/a1c13151-953c-46ad-8692-51c7318382f9)](https://dashboard.infracost.io/org/mchinrichs/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e?tab=settings#config-file-editor)
 [![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-spore-creatures-extract-main)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/MichaelHinrichs/SPORE-Creatures-extract)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+AWS+V1.2)
