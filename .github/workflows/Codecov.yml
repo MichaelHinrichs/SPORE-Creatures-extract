@@ -1,14 +1,14 @@
-name: Codecov
+name: CodecovName
 on:
   push:
     branches:
       - main
-      - Codecov
+      - CodecovBranch
 jobs:
-  Codecov:
+  CodecovJob:
     runs-on: windows-latest
     steps:
-      - name: Codecov
+      - name: CodecovStep
         uses: codecov/codecov-action@v3.1.4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
