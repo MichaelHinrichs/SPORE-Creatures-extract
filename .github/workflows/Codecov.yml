@@ -4,11 +4,18 @@ on:
     branches:
       - main
       - CodecovBranch
+  pull_request:
+    branches:
+      - main
+      - CodecovBranch
 jobs:
   CodecovJob:
     runs-on: windows-latest
     steps:
-      - name: CodecovStep
-        uses: codecov/codecov-action@v3.1.4
+      - name: Run Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          files: ./coverage.xml
+          fail_ci_if_error: false
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
