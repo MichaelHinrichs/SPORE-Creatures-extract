@@ -6,6 +6,26 @@ on:
 jobs:
   build:
     name: Build and analyze
-    runs-on: unix-latest
-    env:
-      project: "SPORE™ Creatures extract.csproj"
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        toolchain:
+          - linux-gcc
+          - macos-clang
+          - windows-msvc
+
+        configuration:
+          - Debug
+
+        include:
+          - toolchain: linux-gcc
+            os: ubuntu-latest
+            compiler: gcc
+
+          - toolchain: macos-clang
+            os: macos-latest
+            compiler: clang
+
+          - toolchain: windows-msvc
+            os: windows-latest
+            compiler: msvc
