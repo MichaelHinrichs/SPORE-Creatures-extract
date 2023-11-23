@@ -37,6 +37,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract)
 [![AppVeyor tests](https://img.shields.io/appveyor/tests/MichaelHinrichs/SPORE-Creatures-extract?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/MichaelHinrichs/spore-creatures-extract/build/tests)
 [![AppVeyor Build](https://img.shields.io/appveyor/build/MichaelHinrichs/SPORE-Creatures-extract?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/MichaelHinrichs/spore-creatures-extract)
+![Codecov branch](https://img.shields.io/codecov/c/github/MichaelHinrichs/SPORE-Creatures-extract/CodecovBranch?logo=codecov&logoColor=white)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+AWS+V1.2)
