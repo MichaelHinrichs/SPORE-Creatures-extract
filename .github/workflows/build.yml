@@ -1,8 +1,0 @@
-on:
-  push:
-    branches:
-      - main
-      - BridgeCrew
-      - SonarCloud
-      - Travis-CI
-      - Testspace
