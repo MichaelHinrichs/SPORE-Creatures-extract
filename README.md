@@ -35,8 +35,6 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/SPORE-Creatures-extract/main?logo=scrutinizer&logoColor=white)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/)
 [![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
 [![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract)
-[![AppVeyor tests](https://img.shields.io/appveyor/tests/MichaelHinrichs/SPORE-Creatures-extract?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/MichaelHinrichs/spore-creatures-extract/build/tests)
-[![AppVeyor Build](https://img.shields.io/appveyor/build/MichaelHinrichs/SPORE-Creatures-extract?logo=appveyor&logoColor=white)](https://ci.appveyor.com/project/MichaelHinrichs/spore-creatures-extract)
 [![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e/branch/a1c13151-953c-46ad-8692-51c7318382f9)](https://dashboard.infracost.io/org/mchinrichs/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e?tab=settings#config-file-editor)
 [![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-spore-creatures-extract-main)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)

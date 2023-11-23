@@ -3,3 +3,9 @@ on:
     branches:
       - main
       - appveyor
+      - BridgeCrew
+      - Guardrails
+      - percy
+      - SonarCloud
+      - Travis-CI
+      - Testspace
