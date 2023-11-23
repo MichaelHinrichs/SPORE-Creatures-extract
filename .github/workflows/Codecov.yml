@@ -1,0 +1,23 @@
+name: Codecov
+on:
+  push:
+    branches:
+      - main
+      - CodecovBranch
+    tags:
+      - "!*" # Do not execute on tags
+  pull_request:
+    branches:
+      - main
+      - CodecovBranch
+
+jobs:
+  codecov:
+    name: codecov
+    runs-on: windows-latest
+    
+    steps:
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
