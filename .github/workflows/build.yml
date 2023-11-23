@@ -8,3 +8,4 @@ on:
       - Testspace
       - percy
       - Guardrails
+      - appveyor
