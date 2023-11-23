@@ -7,7 +7,7 @@ jobs:
   build:
     name: ${{ matrix.toolchain }}
     env:
-      project: "SPORE™ Creatures extract.csproj"
+      project: "SPORE™ Creatures extract.sln"
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
