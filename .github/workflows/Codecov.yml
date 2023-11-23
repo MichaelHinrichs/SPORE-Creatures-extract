@@ -6,7 +6,6 @@ on:
       - Codecov
 jobs:
   build:
-    name: Build and analyze
     runs-on: windows-latest
     steps:
       - name: Upload coverage reports to Codecov
