@@ -9,7 +9,7 @@ on:
       - main
       - CodecovBranch
 jobs:
-  CodecovJob:
+  coverage:
     runs-on: windows-latest
     steps:
       - name: Run Codecov
