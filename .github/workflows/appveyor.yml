@@ -6,6 +6,6 @@ on:
 jobs:
   build:
     name: Build and analyze
-    runs-on: windows-latest
+    runs-on: unix-latest
     env:
       project: "SPORE™ Creatures extract.csproj"
