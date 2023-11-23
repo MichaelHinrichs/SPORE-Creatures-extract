@@ -4,6 +4,8 @@ on:
     branches:
       - main
       - CodecovBranch
+    tags:
+      - "!*" # Do not execute on tags
   pull_request:
     branches:
       - main
