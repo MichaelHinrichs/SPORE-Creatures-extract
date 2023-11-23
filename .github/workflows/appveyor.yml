@@ -1,0 +1,11 @@
+on:
+  push:
+    branches:
+      - main
+      - appveyor
+jobs:
+  build:
+    name: Build and analyze
+    runs-on: windows-latest
+    env:
+      project: jsoncpp.sln
