@@ -3,6 +3,14 @@ branches:
   only:
   - main
   - appveyor
+configuration:
+- Debug
+- Release
+platform:
+- Any CPU
+- x86
+- x64
+- ARM
 shallow_clone: true
 build:
   project: SPORE™ Creatures extract.sln
