@@ -1,0 +1,21 @@
+version: 1.0.0.{build}
+branches:
+  only:
+  - main
+  - appveyor
+configuration:
+- Debug
+- Release
+platform:
+- Any CPU
+- x86
+- x64
+- ARM
+shallow_clone: true
+build:
+  project: SPORE™ Creatures extract.sln
+  verbosity: detailed
+test:
+  categories:
+    only:
+    - '**\SPORE-Creatures-extract.exe'

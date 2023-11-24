@@ -2,10 +2,10 @@ on:
   push:
     branches:
       - main
+      - appveyor
       - BridgeCrew
+      - Guardrails
+      - percy
       - SonarCloud
       - Travis-CI
       - Testspace
-      - percy
-      - Guardrails
-      - appveyor
