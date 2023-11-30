@@ -34,6 +34,10 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/MichaelHinrichs/SPORE-Creatures-extract?logo=codeClimate)](https://codeclimate.com/github/MichaelHinrichs/SPORE-Creatures-extract)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/MichaelHinrichs/SPORE-Creatures-extract?logo=codeFactor&logoColor=white&label=Grade)](https://www.codefactor.io/repository/github/michaelhinrichs/spore-creatures-extract)
 [![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/SPORE-Creatures-extract/main?logo=scrutinizer&logoColor=white)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/?branch=main)
+[![Code Coverage](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/?branch=main)
+[![Build Status](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/badges/build.png?b=main)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/build-status/main)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 [![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
 
 [![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract)
