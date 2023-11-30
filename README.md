@@ -29,6 +29,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/MichaelHinrichs/SPORE-Creatures-extract?logo=codeClimate&label=maintainability%20grade)](https://codeclimate.com/github/MichaelHinrichs/SPORE-Creatures-extract)
 [![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability-percentage/MichaelHinrichs/SPORE-Creatures-extract?logo=codeClimate&label=maintainability%20percentage)](https://codeclimate.com/github/MichaelHinrichs/SPORE-Creatures-extract)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5d3b9e07b83bbc89aa20/test_coverage)](https://codeclimate.com/github/MichaelHinrichs/SPORE-Creatures-extract/test_coverage)
 [![Code Climate issues](https://img.shields.io/codeclimate/issues/MichaelHinrichs/SPORE-Creatures-extract?logo=codeClimate)](https://codeclimate.com/github/MichaelHinrichs/SPORE-Creatures-extract/issues?status%5B%5D=)
 [![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/MichaelHinrichs/SPORE-Creatures-extract?logo=codeClimate)](https://codeclimate.com/github/MichaelHinrichs/SPORE-Creatures-extract)
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/MichaelHinrichs/SPORE-Creatures-extract?logo=codeFactor&logoColor=white&label=Grade)](https://www.codefactor.io/repository/github/michaelhinrichs/spore-creatures-extract)
