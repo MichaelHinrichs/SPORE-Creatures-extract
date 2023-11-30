@@ -39,12 +39,10 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![Build Status](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/badges/build.png?b=main)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/build-status/main)
 [![Code Intelligence Status](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 [![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
-
 [![Open Source Helpers](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract/badges/users.svg)](https://www.codetriage.com/michaelhinrichs/spore-creatures-extract)
 [![infracost](https://img.shields.io/endpoint?url=https://dashboard.api.infracost.io/shields/json/1e57e27f-ffc4-4ed5-b312-8a8b12eeb27c/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e/branch/a1c13151-953c-46ad-8692-51c7318382f9)](https://dashboard.infracost.io/org/mchinrichs/repos/0bf252ad-ef8a-4a34-916b-1d662f19cc5e?tab=settings#config-file-editor)
 [![codebeat badge](https://codebeat.co/badges/dc38f54d-d10d-4bee-bd9a-b277377e0dc8)](https://codebeat.co/projects/github-com-michaelhinrichs-spore-creatures-extract-main)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/MichaelHinrichs/SPORE-Creatures-extract)
 [![Space Metric](https://michaelhinrichs.testspace.com/spaces/249758/badge?token=193564e3e141d4c3478f75186767c839b70eb79e)](https://michaelhinrichs.testspace.com/spaces/249758?utm_campaign=metric&utm_medium=referral&utm_source=badge "Test Cases")
 [![Codeac](https://static.codeac.io/badges/2-666565927.svg "Codeac")](https://app.codeac.io/github/MichaelHinrichs/SPORE-Creatures-extract)
 
