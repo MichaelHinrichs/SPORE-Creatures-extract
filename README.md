@@ -45,6 +45,7 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8094/badge)](https://www.bestpractices.dev/projects/8094)
 [![Space Metric](https://michaelhinrichs.testspace.com/spaces/249758/badge?token=193564e3e141d4c3478f75186767c839b70eb79e)](https://michaelhinrichs.testspace.com/spaces/249758?utm_campaign=metric&utm_medium=referral&utm_source=badge "Test Cases")
 [![Codeac](https://static.codeac.io/badges/2-666565927.svg "Codeac")](https://app.codeac.io/github/MichaelHinrichs/SPORE-Creatures-extract)
+[![Bors enabled](https://bors.tech/images/badge_small.svg)](https://ms-bors.herokuapp.com/repositories/76)
 
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=INFRASTRUCTURE+SECURITY)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/cis_aws)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=CIS+AWS+V1.2)
