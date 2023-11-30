@@ -1,3 +1,4 @@
+name: Testspace Action
 on:
   push:
     branches:
