@@ -34,4 +34,5 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/MichaelHinrichs/SPORE-Creatures-extract?logo=codeFactor&logoColor=white&label=Grade)](https://www.codefactor.io/repository/github/michaelhinrichs/spore-creatures-extract)
 [![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/MichaelHinrichs/SPORE-Creatures-extract/main?logo=scrutinizer&logoColor=white)](https://scrutinizer-ci.com/g/MichaelHinrichs/SPORE-Creatures-extract/)
 [![StyleCI Status](https://github.styleci.io/repos/666565927/shield?style=flat)](https://github.styleci.io/repos/666565927)
+[![Space Metric](https://michaelhinrichs.testspace.com/spaces/249758/badge?token=193564e3e141d4c3478f75186767c839b70eb79e)](https://michaelhinrichs.testspace.com/spaces/249758?utm_campaign=metric&utm_medium=referral&utm_source=badge "Test Cases")
 
