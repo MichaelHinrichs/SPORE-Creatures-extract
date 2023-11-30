@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_MichaelHinrichs_SPORE_Creatures_extract_1700721832778-push-trigger-input-set
+  identifier: Build_MichaelHinrichs_SPORE_Creatures_extract_1700721832778pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_MichaelHinrichs_SPORE_Creatures_extract_1700721832778
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
