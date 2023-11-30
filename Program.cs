@@ -62,7 +62,6 @@ namespace SPORE__Creatures_extract
             return file;
         }
 
-
         public class FILE
         {
             public string path;
