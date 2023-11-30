@@ -62,3 +62,5 @@ To use: "SPORE™ Creatures extract.exe" path/to/dir/rom.bin path/to/dir/romFile
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/pci)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=PCI-DSS+V3.2)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/pci_dss_v321)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=PCI-DSS+V3.2.1)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/michaelhinrichs/spore-creatures-extract/soc2)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=MichaelHinrichs%2FSPORE-Creatures-extract&benchmark=SOC2)
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=MichaelHinrichs/SPORE-Creatures-extract)
