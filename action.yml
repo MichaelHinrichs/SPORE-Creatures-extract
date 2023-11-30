@@ -3,7 +3,7 @@ on:
     branches:
       - main
       - TestSpace
-name: 'Testspace Setup CLI'
+name: 'Testspace'
 description: 'Setup Testspace client to publish CI results from workflow to Dashboard; report flaky tests, metrics, graphs, and analytics'
 author: 'S2 Technologies, Inc.'
 inputs:
