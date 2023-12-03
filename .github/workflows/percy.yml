@@ -1,5 +1,32 @@
+name: percy
 on:
   push:
     branches:
       - main
       - percy
+  pull_request:
+    branches:
+      - percy
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Install
+        run: yarn
+      - name: Percy Test
+        uses: percy/exec-action@v0.3.1
+        with:
+          command: "cypress run"
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
+      - name: Percy Test
+        uses: percy/storybook-action@v0.1.6
+        with:
+          custom-command: 'yarn storybook:percy'
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
