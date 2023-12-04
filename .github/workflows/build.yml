@@ -2,4 +2,8 @@ on:
   push:
     branches:
       - main
+      - SonarCloud
+      - Travis-CI
+      - percy
       - Guardrails
+      - appveyor
