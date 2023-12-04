@@ -1,0 +1,24 @@
+name: Katalon
+on:
+  branches:
+      - main
+      - Katalon
+  pull_request:
+    branches:
+      - main
+      - Katalon
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3.0
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v3.0
+      with:
+          version: '7.5.5'
+          projectPath: '${{ github.workspace }}'
