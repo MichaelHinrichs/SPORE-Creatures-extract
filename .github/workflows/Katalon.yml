@@ -1,12 +1,15 @@
 name: Katalon
 on:
-  branches:
+  push:
+    branches:
       - main
       - Katalon
   pull_request:
     branches:
       - main
       - Katalon
+
+permissions: read-all
 
 jobs:
   build:
