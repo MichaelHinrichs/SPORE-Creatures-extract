@@ -11,6 +11,9 @@ on:
     paths-ignore:
       - '**.md'
       - 'docs/**'
+
+permissions: read-all
+      
 jobs:
   test:
     runs-on: ${{ matrix.os }}
@@ -20,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Testspace client install & config
-        uses: ./
+        uses: testspace-com/setup-testspace@v1
         with:
           domain: ${{ github.repository_owner }}
           token: ${{ secrets.TESTSPACE_TOKEN }}
