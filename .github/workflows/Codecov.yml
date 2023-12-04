@@ -12,7 +12,7 @@ on:
 permissions: read-all
 
 jobs:
-  codecov:
+  coverage:
     name: codecov
     runs-on: ${{ matrix.os }}
     strategy:
