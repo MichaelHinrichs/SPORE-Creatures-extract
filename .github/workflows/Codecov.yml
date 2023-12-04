@@ -11,6 +11,8 @@ on:
       - main
       - CodecovBranch
 
+permissions: read-all
+
 jobs:
   codecov:
     name: codecov
