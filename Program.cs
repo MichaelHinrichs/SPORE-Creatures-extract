@@ -10,6 +10,12 @@ namespace SPORE__Creatures_extract
         public static BinaryWriter bw;
         static void Main(string[] args)
         {
+            Rook.RookOptions options = new Rook.RookOptions()
+            {
+                token = "1887fcd78e0e9b537e5a21ef8be6375e224e6f90a8376f37ed5c1d2251577675",
+                labels = new Dictionary<string, string> { { "env", "dev" } }
+            };
+            Rook.API.Start(options);
             using FileStream source = File.OpenRead(args[0]);
             long filelength = source.Length;
             rom = new BinaryReader(source);
