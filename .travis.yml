@@ -2,3 +2,31 @@ language: csharp
 solution: /SPORE™ Creatures extract.sln/
 mono: none
 dotnet: net5.0
+
+addons:
+  chrome: stable
+  edge: stable
+  firefox: stable
+  opera: stable
+  safari: stable
+
+env:
+  global:
+    CC_TEST_REPORTER_ID=https://codeclimate.com/downloads/test-reporter/test-reporter-latest-windows-amd64
+    
+before_install:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-windows-amd64 > ./cc-test-reporter
+
+install:
+  - npm install                         # Install npm dependencies
+
+# Run the test suites
+script:
+  - npm test                            # Frontend linting & specs
+
+# Pipe the coverage data to Code Climate
+after_script:
+  - ./cc-test-reporter format-coverage -t simplecov -o coverage/codeclimate.backend.json coverage/backend/.resultset.json # Format backend coverage
+  - ./cc-test-reporter format-coverage -t lcov -o coverage/codeclimate.frontend.json coverage/frontend/lcov.info  # Format frontend coverage
+  - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2                  # Sum both coverage parts into coverage/codeclimate.json
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi  # Upload coverage/codeclimate.json
