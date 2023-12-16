@@ -2,6 +2,8 @@ name: Debricked scan
 
 on: [pull_request]
 
+permissions: read-all
+
 jobs:
   vulnerabilities-scan:
     runs-on:  ubuntu-latest
