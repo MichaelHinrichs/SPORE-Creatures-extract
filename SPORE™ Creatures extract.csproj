@@ -6,4 +6,8 @@
     <RootNamespace>SPORE__Creatures_extract</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Honeybadger" Version="0.3.0" />
+  </ItemGroup>
+
 </Project>
