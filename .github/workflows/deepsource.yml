@@ -13,10 +13,7 @@ permissions: read-all
 
 jobs:
   tests:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
+    runs-on: ubuntu-latest
     steps:
       - name: Report test coverage to DeepSource
         uses: deepsourcelabs/test-coverage-action@master
