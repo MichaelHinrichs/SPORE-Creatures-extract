@@ -1,0 +1,26 @@
+name: Testspace Action
+on:
+  push:
+    branches:
+    - main
+    - deepsource
+  pull_request:
+    branches:
+    - main
+    - deepsource
+
+permissions: read-all
+
+jobs:
+  tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-latest, windows-latest, ubuntu-latest]
+    steps:
+      - name: Report test coverage to DeepSource
+        uses: deepsourcelabs/test-coverage-action@master
+        with:
+          key: python
+          coverage-file: coverage.xml
+          dsn: ${{ secrets.DEEPSOURCE_DSN }}
