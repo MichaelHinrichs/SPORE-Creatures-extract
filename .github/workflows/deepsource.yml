@@ -1,4 +1,4 @@
-name: Testspace Action
+name: DeepSource Action
 on:
   push:
     branches:
