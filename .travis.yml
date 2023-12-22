@@ -2,3 +2,12 @@ language: csharp
 solution: /SPORE™ Creatures extract.sln/
 mono: none
 dotnet: net5.0
+jobs:
+  include:
+    - name: GitGuardian Scan
+      language: python
+      python: 3.8
+      install:
+        - pip install ggshield
+      script:
+        - ggshield secret scan ci
