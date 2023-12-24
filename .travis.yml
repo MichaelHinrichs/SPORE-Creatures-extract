@@ -1,0 +1,4 @@
+language: csharp
+solution: /SPORE™ Creatures extract.sln/
+mono: none
+dotnet: net5.0
